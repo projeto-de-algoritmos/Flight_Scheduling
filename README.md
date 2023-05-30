@@ -1,44 +1,32 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Flight Scheduling
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 17<br>
+**Conteúdo da Disciplina**: Algortimos Ambiciosos<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0084642  |  Arthur Taylor de Jesus Popov |
+| 16/0125910  |  Itallo C. Gravina |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Utilização dos conceitos de algoritmos ambiciosos para o angendamento da chegadas de voos, fornecendo assim os horarios de chegada, utilizando o algoritmo para minnimizar atrasos com a deadline menor primeiro. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+* Para compilar em C
+```
+gcc ./NomeCodigo.c 
+```
+
+* O arquivo voos.csv deve existir para a correta execução do código, o arquvio de agendamento será criado de acordo com a execução do algortimo ambicioso com base neste arquivo.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+As informações de saída ficam visíveis em um aquivo criado pelo código chamado de voos_agendados.csv.
 
 
 
