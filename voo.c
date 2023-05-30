@@ -12,7 +12,34 @@ typedef struct {
     int departure_time;
 } Airplane;
 
+int compara(const void *a, const void *b)
+{
 
+    Airplane *airplaneA = (Airplane *)a;
+    Airplane *airplaneB = (Airplane *)b;
+
+	return (airplaneA -> arrival_time - airplaneB ->arrival_time);
+
+}
+
+void scheduleFlights(Airplane flights[], int num_flights) {
+    
+    int tempoTotal = 0;
+
+    int tempoInicial, tempoFinal;
+
+     qsort(flights, num_flights, sizeof(Airplane), compara);
+
+    for (int i = 1; i < num_flights; i++) {
+       
+        tempoInicial= tempoTotal;
+        tempoFinal= tempoTotal+flights[i].arrival_time;
+
+        tempoTotal = tempoTotal + flights[i].arrival_time;
+
+
+            }
+        }
 
 int main() {
     FILE *inputFile, *outputFile;
