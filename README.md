@@ -13,7 +13,14 @@
 Utilização dos conceitos de algoritmos ambiciosos para o angendamento da chegadas de voos, fornecendo assim os horarios de chegada, utilizando o algoritmo para minnimizar atrasos com a deadline menor primeiro. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+* Antes do scheduling
+
+![Antes da execução](https://github.com/projeto-de-algoritmos/Greed_Flight_Scheduling/blob/master/assets/1cebcc97-9bbc-49b2-b135-e6b950591f01.jpg)
+
+* Após o scheduling
+
+![Após execução](https://github.com/projeto-de-algoritmos/Greed_Flight_Scheduling/blob/master/assets/15579dfd-bebc-4fb8-9fd5-6f42cd081699.jpg)
 
 ## Instalação 
 **Linguagem**: C<br>
